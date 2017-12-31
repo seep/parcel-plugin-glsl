@@ -1,6 +1,6 @@
-const HTMLAsset = require('parcel-bundler/src/assets/HTMLAsset');
+const RawAsset = require('parcel-bundler/src/assets/RawAsset');
 
-module.exports = class GLSLAsset extends HTMLAsset {
+module.exports = class GLSLAsset extends RawAsset {
 
   constructor(name, pkg, options) {
 
