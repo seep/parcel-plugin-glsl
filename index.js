@@ -1,5 +1,5 @@
 module.exports = function (bundler) {
 
-  bundler.addAssetType('glsl', require.resolve('./glsl-asset.js'));
+  bundler.addAssetType('glsl', require.resolve('./glsl-asset'));
 
 };
