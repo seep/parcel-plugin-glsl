@@ -1,19 +1,6 @@
-const RawAsset = require('parcel-bundler/src/assets/RawAsset');
+const Asset = require('parcel-bundler/src/Asset');
 
-module.exports = class GLSLAsset extends RawAsset {
-
-  constructor(name, pkg, options) {
-
-    super(name, pkg, options);
-    this.type = 'js';
-
-  }
-
-  parse(code) {
-
-    return super.parse(code);
-
-  }
+module.exports = class GLSLAsset extends Asset {
 
   generate() {
 
