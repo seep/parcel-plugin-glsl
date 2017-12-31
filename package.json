@@ -1,0 +1,15 @@
+{
+  "name": "parcel-plugin-glsl",
+  "version": "1.0.0",
+  "description": "a parcel plugin for GLSL files",
+  "main": "index.js",
+  "author": "Chris Parker",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seep/parcel-plugin-glsl.git"
+  },
+  "dependencies": {
+    "parcel-bundler": "*"
+  }
+}
