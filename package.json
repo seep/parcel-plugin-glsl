@@ -1,14 +1,20 @@
 {
   "name": "parcel-plugin-glsl",
-  "version": "1.0.0",
-  "description": "a parcel plugin for GLSL files",
+  "description": "A parcel plugin for GLSL files",
+  "version": "0.1.0",
   "main": "index.js",
-  "author": "Chris Parker",
+  "author": "Chris Parker <seep@sent.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/seep/parcel-plugin-glsl.git"
   },
+  "bugs": {
+    "url": "https://github.com/seep/parcel-plugin-glsl/issues"
+  },
+  "keywords": [
+    "parcel", "shader", "glsl", "three.js", "webgl"
+  ],
   "dependencies": {
     "parcel-bundler": "*"
   }
